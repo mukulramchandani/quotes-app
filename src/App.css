@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  background-color: #222;
+    background-image: linear-gradient(135deg,#1da1f2,#981ceb);
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+/* 
+.App-header {
+  background-color: #222; 
+  height: 15px;
+  padding: 20px;
+} */
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@font-face{
+  font-family: AllessaScript;
+  src: url(./fonts/AllessaScript.ttf);
+}
+.quote{
+  font-family: AllessaScript;
+}
+
+.comma{
+  margin-bottom: -250px;
+  margin-top: auto;
+  font-size: 270px;
+  color: rgba(236, 7, 7, 0.53);
+}
+
+.quote-text{
+  font-size: 30px;
+  color: #fff;
+  padding: 15px;
+}
+
+.author{
+  text-align: right;
+  padding-right: 35px;
+}
+
+.quote-button{
+  background-color: #56eaea;
+  padding: 5px;
+  font-size: 18px;
+  font-family: cursive;
+  font-style: italic;
+  bottom: 8px;
+  border: 3px solid #5e4f8a;
+  border-radius: 5px;
+  position: relative;
+  margin: 0px auto;
+  cursor: pointer;
+ 
+}
+.quote-button:hover{
+   background-color: #fff;
+}
+
+.header1{
+  margin-bottom: -50px;
+    margin-top: auto;
+    padding-top: 25px;
+    font-family: monospace;
+    font-size: xx-large;
+    text-decoration: overline;
+    color:cornsilk;
+}
